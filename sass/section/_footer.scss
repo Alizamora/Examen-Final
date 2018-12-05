@@ -1,0 +1,21 @@
+footer{
+
+    ul{
+
+        li{
+            
+            transition: 0.2s;
+            display: inline-block;
+            text-transform: uppercase;
+            padding: 0 20px;
+            &:hover{
+                cursor: pointer;
+            }
+
+            a{ 
+                //font-size:
+                text-align: center;
+            }
+        }
+    }
+}   

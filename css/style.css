@@ -1,0 +1,67 @@
+body {
+  font-family: "Titillium Web", sans-serif;
+  margin: 0;
+}
+
+ul {
+  text-decoration: none;
+  list-style: none;
+}
+ul li {
+  list-style: none;
+}
+
+#container {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+header {
+  margin-top: 100px;
+}
+header .logo {
+  width: 95px;
+}
+
+.content h1 {
+  padding-top: 200px;
+  font-size: 13em;
+  margin: 0;
+}
+.content .text {
+  width: 635px;
+  margin: 0;
+}
+.content .text p {
+  font-size: 1em;
+  color: #c6c5c6;
+}
+.content .text:after {
+  content: url(../../img/icon1.png);
+  height: 75px;
+}
+.content .foto {
+  width: 590px;
+  height: 590px;
+}
+
+footer ul li {
+  transition: 0.2s;
+  display: inline-block;
+  text-transform: uppercase;
+  padding: 0 20px;
+}
+footer ul li:hover {
+  cursor: pointer;
+}
+footer ul li a {
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */
